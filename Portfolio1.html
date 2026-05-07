@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>xxxxxxxxxxxxxxxxxx Portfolio</title>
+<style>
+/BODY STYLE (Whole Page)/
+body {
+margin: 0;
+font-family: Arial;
+background-color: #f5f5f5;
+}
+/NAVBAR (Top Menu Bar)/
+.navbar {
+display: flex;
+justify-content: flex-end;
+background-color: #111;
+padding: 10px 30px;
+}
+/Navbar list/
+.navbar ul {
+list-style: none; /* removes bullets */
+display: flex;
+margin: 0;
+padding: 0;
+}
+/Navbar items/
+.navbar ul li {
+margin-left: 25px;
+}
+/Navbar links/
+.navbar ul li a {
+color: white;
+text-decoration: none;
+font-size: 16px;
+}
+/HERO SECTION (Top Intro Section)/
+.hero {
+text-align: center;
+padding: 60px 20px;
+color: #222;
+/Background image + light overlay/
+background-image:
+linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+url("bg.png");
+background-size: cover;
+background-position: center;
+}
+/Profile Image/
+.hero img {
+width: 220px;
+border: 4px solid #333;
+background-color: white;
+}
+/COMMON SECTION STYLE/
+.section {
+padding: 30px;
+margin: 20px;
+background-color: white;
+border-radius: 10px;
+}
+/CARDS (Used in About + Interests)/
+.cards {
+display: flex;
+flex-wrap: wrap;
+}
+/Single card/
+.card {
+background-color: #eee;
+padding: 15px;
+margin: 10px;
+border-radius: 8px;
+}
+/SKILLS LIST/
+.skills-list {
+padding-left: 20px;
+}
+.skills-list li {
+margin: 8px 0;
+}
+/CONTACT SECTION/
+.contact {
+text-align: center;
+}
+/FOOTER/
+.footer {
+text-align: center;
+background-color: #111;
+color: white;
+padding: 10px;
+}
+</style>
+</head>
+<body>
+<!--NAVBAR-->
+<div class="navbar">
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#hobbies">Hobbies</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<!--HERO SECTION-->
+<div class="hero">
+<img src="myimage.jpeg" alt="Profile Photo">
+<h1>xxxxxxxxxxxx</h1>
+<p>Computer Engineering student at MIT AOE, Alandi</p>
+</div>
+<!--ABOUT SECTION-->
+<div class="section" id="about">
+<h2>About Me</h2>
+<p>
+I am a first-year Computer Engineering student with a strong interest in software development and emerging I enjoy coding in languages like C, Python, and Java, and have a growing interest in cybersecurity and I am passionate about learning new skills, participating in competitions, and improving myself continuously.
+</p>
+<div class="cards">
+<div class="card">10th: 91.40%</div>
+<div class="card">12th: 79.80%</div>
+<div class="card">CGPA: 8.20</div>
+</div>
+</div>
+<!--SKILLS SECTION-->
+<div class="section" id="skills">
+<h2>Skills</h2>
+<ul class="skills-list">
+<li>C Language</li>
+<li>Python</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Java</li>
+<li>Data Visualization</li>
+</ul>
+</div>
+<!--INTERESTS SECTION-->
+<div class="section">
+<h2>Interests</h2>
+<div class="cards">
+<div class="card">Cyber Security</div>
+<div class="card">Blockchain</div>
+<div class="card">Ethical Hacking</div>
+</div>
+</div>
+<!--CERTIFICATIONS-->
+<div class="section">
+<h2>Certifications</h2>
+<ul>
+<li>NASSCOM</li>
+<li>IBM Skills</li>
+<li>Anthropic AI Certification</li>
+</ul>
+</div>
+<!--HOBBIES-->
+<div class="section" id="hobbies">
+<h2>Hobbies</h2>
+<ol>
+<li>Cricket</li>
+<li>Wrestling</li>
+<li>Music</li>
+<li>Enjoying Life</li>
+</ol>
+</div>
+<!--CONTACT-->
+<div class="section contact" id="contact">
+<h2>Contact Me</h2>
+<p>Email: xxxyyyzzz@gmail.com</p>
+<p>Phone: 040404040440</p>
+</div>
+<!--FOOTER-->
+<div class="footer">
+<p>Thanks for visiting my portfolio</p>
+</div>
+</body>
+</html>
